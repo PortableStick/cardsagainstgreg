@@ -1,0 +1,75 @@
+[
+    {
+        "question": "POST",
+        "answer":"An HTTP request method.  Sends data wrapped in the request message's body.",
+        "categories": ["HTTP", "vocabulary"]
+    },{
+        "question": "GET",
+        "answer":"An HTTP request method.  Requests information from the server.  Should only retrieve data with no other effect (per spec)",
+        "categories": ["HTTP", "vocabulary"]
+    },{
+        "question": "What are the four basic functions of persistent storage?",
+        "answer":"Create, Read, Update, Delete - CRUD",
+        "categories": []
+    },{
+        "question": "What is loop-invariant code motion?",
+        "answer":"Loop-invariant code is that code which can be moved outside of a loop without affecting the way the program works. Loop-invariant code motion is a compiler optimization which moves invarient code out of the loop",
+        "categories": ["compiler", "vocabulary"]
+    },{
+        "question": "What is amortized analysis?",
+        "answer": "Amortized analysis is time complexity analysis which is done with consideration to the cost of each operation rather than strictly how many operations it performs.",
+        "categories": ["big-o", "analysis", "time complexity"]
+    }, {
+        "question": "Which operations do we typically define on queues?",
+        "answer": "Enqueue - add an entity to the queue; Dequeue - remove the entity in the rear-terminal position and return it; Peek - return the entity in the rear-terminal position but do not remove it",
+        "categories": ["data structures"]
+    }, {
+        "question": "What are the constraints that a red-black tree must follow?",
+        "answer": "1. A node is either red or black.  2. Nodes start as red.  3. The root and leaves (NIL) are black.  4. If a node is red, then its children are black.  5. All paths from any node to its NIL descendants contain the same number of black nodes.",
+        "categories": ["data structures", "trees"]
+    }, {
+        "question": "What are the 4 scenarios that trigger changes in red-black trees, and what changes to they make?",
+        "answer": "1. Z == root - change root to black  2. Z's uncle is red - recolor Z's parent, uncle, and grandparent  3. Z's uncle is black (triangle) - rotate Z's parent  4. Z's uncle is black (line) - rotate Z's grandparent",
+        "categories": ["data structures", "trees"]
+    }, {
+        "question": "What is a linked list?",
+        "answer": "A linked list is a linear collection of data elements (usually called nodes), which point to the next node in the collection by way of a pointer.  This allows for very efficient insertion and removal of elements during iteration",
+        "categories": ["data structures", "lists"]
+    }, {
+        "question": "What is a dictionary?",
+        "answer": "A dictionary is an abstract data type composed of key-value pairs such that each key appears at most once in the set",
+        "categories": ["data structures", "hash tables"]
+    }, {
+        "question": "What is a data structure?",
+        "answer": "A data structure is any way of organizing data so that it may be used efficiently by a computer.  It can implement one or more abstract data type which determines the operations that may be performed on it and its computational complexity",
+        "categories": ["data structure", "vocabulary"]
+    }, {
+        "question": "Which operations do we typically define for a stack?",
+        "answer": "Push - add an element to the collection; Pop - remove the most recently added element; Peek - return the most recently added element without removing it",
+        "categories": ["data structures", "stacks"]
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }, {
+        "question": "",
+        "answer": "",
+        "categories": []
+    }
+]
