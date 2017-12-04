@@ -20,10 +20,16 @@
         data() {
             return {
                 cards: [
-                    {title: "JavaScript"},
-                    {title: "Python"},
-                    {title: "Clojure"},
-                    {title: "Java"}
+                    {   title: "JavaScript",
+                        subcategories: ["Algorithms", "Data structures", "Keyboard clacks", "hackings"]
+                    },
+                    {title: "Python",
+                        subcategories: ["Sorting", "sneks", "Python clacks", "More hackings", "NSA SPoOks"]
+                    },
+                    {title: "Clojure",
+                    subcategories: ["Beat up Supermans", "Parentheses", "Bad bears", "40oz"]},
+                    {title: "Java",
+                    subcategories: ["Why vim no format mai thiiings?", "BORING AS HECK", "fuck", "The JVM and you"]}
                 ]
             }
         }
