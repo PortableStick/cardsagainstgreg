@@ -1,12 +1,7 @@
-// App.vue
-
 <template>
-    <div class="container">
-        <div>
-            <transition name="fade">
-                <router-view></router-view>
-            </transition>
-        </div>
+    <div>
+        <router-view name="dashboard"></router-view>
+        <router-view name="collections" :cards="cards"></router-view>
     </div>
 </template>
 
@@ -22,5 +17,15 @@
 <script>
 
     export default{
+        data() {
+            return {
+                cards: [
+                    {title: "JavaScript"},
+                    {title: "Python"},
+                    {title: "Clojure"},
+                    {title: "Java"}
+                ]
+            }
+        }
     }
 </script>

@@ -6,6 +6,7 @@ import VueAxios from 'vue-axios';
 import axios from 'axios';
 import App from './App.vue';
 import Dashboard from './Dashboard.vue';
+import Collections from './Collections.vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
@@ -18,7 +19,10 @@ const routes = [
   {
         name: 'Dashboard',
         path: '/',
-        component: Dashboard
+        components: {
+            dashboard: Dashboard,
+            collections: Collections
+        }
     }
 ];
 
